@@ -19,4 +19,4 @@
 | :--- | :--- | :---: | :--- | :--- |
 |72 |[edit-distance](https://leetcode.cn/problems/edit-distance/)|/|/|/|
 |62 |[Unique Paths](https://leetcode.com/problems/unique-paths)|/|1. DP 数组 <br>2. 数学方法,排列组合公式但是要注意溢出  |ld:针对法2,有很多提高速度的方法也有很多坑https://leetcode.com/problems/unique-paths/solutions/8334724/unique-paths-combinatorics-solution-by-d-x51j
-|64 |[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)/)|/|/|/|
+|64 |[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/))|/|/|ld:依旧使用inf感觉省事不知道有没有别的方法https://leetcode.com/problems/minimum-path-sum/solutions/8335368/minimum-path-sum-by-deanna-l-wqb2|
