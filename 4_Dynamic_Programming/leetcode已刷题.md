@@ -13,3 +13,4 @@
 |53 |[maximum-subarray](https://leetcode.cn/problems/maximum-subarray/description/)|/|/|/|
 |72 |[edit-distance](https://leetcode.cn/problems/edit-distance/)|/|/|/|
 |887 |[super-egg-drop](https://leetcode.cn/problems/super-egg-drop/description/)|/|/|/|
+|62 |[Unique Paths](https://leetcode.com/problems/unique-paths)|/|1. DP 数组 <br>2. 数学方法,排列组合公式但是要注意溢出  |ld:针对法2,有很多提高速度的方法也有很多坑https://leetcode.com/problems/unique-paths/solutions/8334724/unique-paths-combinatorics-solution-by-d-x51j
