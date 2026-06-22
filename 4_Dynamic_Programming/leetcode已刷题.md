@@ -14,7 +14,8 @@
 |887 |[super-egg-drop](https://leetcode.cn/problems/super-egg-drop/description/)|/|/|/| / |
 
 > **2D DP 通用写法**：`vector<vector<int>> dp(m, vector<int>(n, 1));`
-
+> ld:提醒自己最后返回不能dp[i][j],有范围问题要用dp[l1][l2]
+> 
 | 题号 | 题名 | 题解 | 解法 | 备注 |
 | :--- | :--- | :---: | :--- | :--- |
 |72 |[edit-distance](https://leetcode.cn/problems/edit-distance/)|/|/|[DP所有能踩的坑汇总](https://leetcode.cn/problems/edit-distance/solutions/3985038/yi-ti-cai-bian-dpsuo-you-de-keng-by-yi-m-yvpu)|
