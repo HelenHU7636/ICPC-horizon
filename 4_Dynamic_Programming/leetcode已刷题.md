@@ -18,8 +18,8 @@
 > 
 | 题号 | 题名 | 题解 | 解法 | 备注 |
 | :--- | :--- | :---: | :--- | :--- |
-|72 |[edit-distance](https://leetcode.cn/problems/edit-distance/)|/|/|[DP所有能踩的坑汇总](https://leetcode.cn/problems/edit-distance/solutions/3985038/yi-ti-cai-bian-dpsuo-you-de-keng-by-yi-m-yvpu)|
-|62 |[Unique Paths](https://leetcode.com/problems/unique-paths)|/|1. DP 数组 <br>2. 数学方法,排列组合公式但是要注意溢出  |ld:针对法2,有很多提高速度的方法也有很多坑https://leetcode.com/problems/unique-paths/solutions/8334724/unique-paths-combinatorics-solution-by-d-x51j
+|72 |[edit-distance](https://leetcode.cn/problems/edit-distance/)|/|/|[DP所有能踩的坑汇总](https://leetcode.cn/problems/edit-distance/solutions/3985038/yi-ti-cai-bian-dpsuo-you-de-keng-by-yi-m-yvpu)xcy:有时候要能够发现这题要用动态规划，发现是二维的，以及发现相应的指标，比方说这题“前i个替换为前j个”就要自己定义出来；注意边界，+1和-1容易弄错|
+|62 |[Unique Paths](https://leetcode.com/problems/unique-paths)|/|1. DP 数组 <br>2. 数学方法,排列组合公式但是要注意溢出  |ld:针对法2,有很多提高速度的方法也有很多坑https://leetcode.com/problems/unique-paths/solutions/8334724/unique-paths-combinatorics-solution-by-d-x51j <br>xcy:带图的一看就知道是dp，不带图的就看不出来
 |64 |[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)|/|/|ld:依旧使用inf感觉省事不知道有没有别的方法https://leetcode.com/problems/minimum-path-sum/solutions/8335368/minimum-path-sum-by-deanna-l-wqb2|
 |1143 |[longest-common-subsequence](https://leetcode.cn/problems/longest-common-subsequence/)|[如何确定状态转移方程及数组的维度数](https://leetcode.cn/problems/longest-common-subsequence/solutions/3985637/ru-he-que-ding-zhuang-tai-zhuan-yi-fang-li95u)|/|/|
 |494 |[target-sum](https://leetcode.cn/problems/target-sum/)|/|/|/|
