@@ -23,3 +23,4 @@
 |64 |[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)|/|/|ld:依旧使用inf感觉省事不知道有没有别的方法https://leetcode.com/problems/minimum-path-sum/solutions/8335368/minimum-path-sum-by-deanna-l-wqb2|
 |1143 |[longest-common-subsequence](https://leetcode.cn/problems/longest-common-subsequence/)|[如何确定状态转移方程及数组的维度数](https://leetcode.cn/problems/longest-common-subsequence/solutions/3985637/ru-he-que-ding-zhuang-tai-zhuan-yi-fang-li95u)|/|/|
 |494 |[target-sum](https://leetcode.cn/problems/target-sum/)|/|/|/|
+|416 |[partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)|/|/|ld:01背包,物品外层，容量从大往小走.遍历每一物品,然后对每一物品里倒着更新dp[i]|
