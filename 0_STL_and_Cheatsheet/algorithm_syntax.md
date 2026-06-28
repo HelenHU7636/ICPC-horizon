@@ -51,3 +51,22 @@
         // 会依次输出 123, 132, 213, 231, 312, 321
     } while (next_permutation(a.begin(), a.end()));
     ```
+
+
+
+# include <numeric> // accumulate 求和专用
+```cpp
+#include <iostream>
+#include <vector>
+#include <numeric>
+using namespace std;
+
+int main() {
+    vector<int> vec = {1,2,3,4,5};
+    // 初始值0，int类型累加
+    int sum = accumulate(vec.begin(), vec.end(), 0);
+    cout << sum << endl; // 15
+    return 0;
+}
+double sum = accumulate(v.begin(), v.end(), 0.0);
+```
