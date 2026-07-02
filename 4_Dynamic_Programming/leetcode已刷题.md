@@ -22,5 +22,5 @@
 |62 |[Unique Paths](https://leetcode.com/problems/unique-paths)|/|1. DP 数组 <br>2. 数学方法,排列组合公式但是要注意溢出  |ld:针对法2,有很多提高速度的方法也有很多坑https://leetcode.com/problems/unique-paths/solutions/8334724/unique-paths-combinatorics-solution-by-d-x51j <br>xcy:带图的一看就知道是dp，不带图的就看不出来
 |64 |[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)|/|/|ld:依旧使用inf感觉省事不知道有没有别的方法https://leetcode.com/problems/minimum-path-sum/solutions/8335368/minimum-path-sum-by-deanna-l-wqb2|
 |1143 |[longest-common-subsequence](https://leetcode.cn/problems/longest-common-subsequence/)|[如何确定状态转移方程及数组的维度数](https://leetcode.cn/problems/longest-common-subsequence/solutions/3985637/ru-he-que-ding-zhuang-tai-zhuan-yi-fang-li95u)|xcy：这题有三种状态转移方式，max的运用非常巧妙|/|
-|494 |[target-sum](https://leetcode.cn/problems/target-sum/)|/|xcy：|/|
-|416 |[partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)|/|/|ld:01背包,物品外层，容量从大往小走.遍历每一物品,然后对每一物品里倒着更新dp[i]|
+|494 |[target-sum](https://leetcode.cn/problems/target-sum/)|/|xcy：我自己做麻烦了，原因是没想到做数学转换，转化成在数组 nums 中选取若干元素，使得这些元素之和等于 neg；跟“分割等和子集”有点像，提前转换一下就能把问题简化很多，正所谓“多想少算”|/|
+|416 |[partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)|/|xcy：同上，数学转换很重要|ld:01背包,物品外层，容量从大往小走.遍历每一物品,然后对每一物品里倒着更新dp[i]|
